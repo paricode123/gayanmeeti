@@ -110,8 +110,12 @@ class _BannerPageState extends State<BannerPage> {
                 height: 50.h,
                 margin: EdgeInsets.symmetric(vertical: 10.h),
                 decoration: BoxDecoration(
-                  color: Colors.blue.shade400,
-                  borderRadius: BorderRadius.circular(8.r),
+                  gradient: LinearGradient(
+                    colors: [Colors.blue.shade900, Colors.blue.shade300],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                  ),
+                  borderRadius: BorderRadius.circular(20.r),
                 ),
                 child: Center(
                   child: Text(

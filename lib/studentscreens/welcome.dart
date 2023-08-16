@@ -39,9 +39,14 @@ class MyScreen extends StatelessWidget {
                     width: double.infinity,
                     height: 50.h,
                     decoration: BoxDecoration(
-                        color: Colors.blue.shade400,
+                      gradient: LinearGradient(
+                        colors: [Colors.blue.shade900, Colors.blue.shade300],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
                       borderRadius: BorderRadius.circular(20.r),
                     ),
+
                     child: Center(
                       child: Text(
                         'Register',
@@ -70,9 +75,14 @@ class MyScreen extends StatelessWidget {
                     width: double.infinity,
                     height: 50.h,
                     decoration: BoxDecoration(
-                        color: Colors.red,
+                      gradient: LinearGradient(
+                        colors: [Colors.red.shade800, Colors.orange.shade700],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
                       borderRadius: BorderRadius.circular(20.r),
                     ),
+
                     child: Center(
                       child: Text(
                         'Login',

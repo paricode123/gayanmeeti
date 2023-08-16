@@ -77,9 +77,14 @@ class _PasswordState extends State<Password> {
                   width: 327.w,
                   height: 56.h,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10.r),
-                    color: Colors.red,
+                    gradient: LinearGradient(
+                      colors: [Colors.red.shade800, Colors.orange.shade700],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    ),
+                    borderRadius: BorderRadius.circular(20.r),
                   ),
+
                   child: Center(
                     child: Text(
                       'Update Password',

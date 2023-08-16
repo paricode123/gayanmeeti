@@ -125,9 +125,14 @@ class _SettingsState extends State<Settings> {
                   width: 327.w,
                   height: 56.h,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10.r),
-                    color: Colors.blue.shade400,
+                    gradient: LinearGradient(
+                      colors: [Colors.blue.shade900, Colors.blue.shade300],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    ),
+                    borderRadius: BorderRadius.circular(20.r),
                   ),
+
                   child: Center(child: Text('Update Profile',style: TextStyle(color: Colors.white,fontSize: 16.sp),)),
                 ),
               ),

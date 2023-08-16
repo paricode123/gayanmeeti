@@ -75,9 +75,14 @@ class _TeachLoginState extends State<TeachLogin> {
                   width: double.infinity,
                   height: 50.h,
                   decoration: BoxDecoration(
-                    color: Colors.blue.shade400,
+                    gradient: LinearGradient(
+                      colors: [Colors.blue.shade900, Colors.blue.shade300],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    ),
                     borderRadius: BorderRadius.circular(20.r),
                   ),
+
                   child: Center(
                     child: Text(
                       'Login',

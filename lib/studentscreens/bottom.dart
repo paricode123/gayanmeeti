@@ -46,7 +46,7 @@ class _Home_PageState extends State<Home_Page> {
         iconTheme: IconThemeData(color: Colors.black),
         automaticallyImplyLeading: true,
         title: Text(
-          'Gyanmeeti',
+          'User',
           style: TextStyle(color: Colors.black),
         ),
         actions: <Widget>[

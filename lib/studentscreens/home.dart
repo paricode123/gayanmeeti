@@ -67,32 +67,6 @@ class _ChooseLevelState extends State<ChooseLevel> {
           width: screenWidth,
           child: Column(
             children: [
-              SizedBox(height: 20.h),
-              Padding(
-                padding: EdgeInsets.symmetric(horizontal: 16.w),
-                child: Row(
-                  children: [
-                    Text(
-                      'Hello,',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          fontSize: 25.sp,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.blue),
-                    ),
-                    SizedBox(width: 8.w),
-                    Text(
-                      'user!',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 25.sp,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              SizedBox(height: 20.h),
               Container(
                 height: screenHeight * 0.25,
                 child: PageView(
@@ -131,7 +105,7 @@ class _ChooseLevelState extends State<ChooseLevel> {
                   },
                 ),
               ),
-              SizedBox(height: 30.h),
+              SizedBox(height: 20.h),
               Container(
                 child: Column(
                   children: [

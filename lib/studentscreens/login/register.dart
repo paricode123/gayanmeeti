@@ -126,8 +126,12 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     width: 327.w,
                     height: 56.h,
                     decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [Colors.blue.shade900, Colors.blue.shade300],
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                      ),
                       borderRadius: BorderRadius.circular(20.r),
-                      color: Colors.blue.shade400,
                     ),
                     child: Center(child: Text('Register Now',style: TextStyle(color: Colors.white,fontSize: 16.sp),)),
                   ),

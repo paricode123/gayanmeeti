@@ -115,8 +115,12 @@ class _OtpVerifyState extends State<OtpVerify> {
                 width: double.infinity,
                 height: 50.h,
                 decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [Colors.blue.shade900, Colors.blue.shade300],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                  ),
                   borderRadius: BorderRadius.circular(20.r),
-                  color: Colors.blue.shade400,
                 ),
                 child: Center(
                   child: Text(
